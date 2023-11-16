@@ -17,7 +17,7 @@ def generate_launch_description():
     )
 
     moveit_config = (
-        MoveItConfigsBuilder("arduinobot", package_name="arduinobot_moveit")
+        MoveItConfigsBuilder("modulus", package_name="modulus")
         .robot_description(file_path=os.path.join(
             get_package_share_directory("arduinobot_description"),
             "urdf",
